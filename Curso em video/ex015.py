@@ -1,0 +1,5 @@
+km = float(input('Digite a quantidade de km rodados: '))
+dia= int(input('Digite a quantidade de dias alugados: '))
+#preco=(dia * 60) + (0.15*km)
+#print('O valor a ser pago é R$ {:.2f}'.format(preco))
+print('O valor a ser pago é R$ {:.2f}'.format((dia * 60) + (0.15*km)))
